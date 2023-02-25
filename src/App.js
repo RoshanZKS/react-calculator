@@ -2,7 +2,7 @@ import { useReducer } from "react";
 import DigitButton from "./DigitButton";
 import OperationButton from "./OperationButton";
 import "./styles.css"
-// import this is to just add some thing
+
 
 export const ACTIONS =  {
   ADD_DIGIT: 'add-digit',
