@@ -41,9 +41,16 @@ body {
 .span-two.eql{
     background-color: rgba(255, 166, 0, 0.89);
 }
+.span-two.eql:hover,
+.span-two.eql:focus{
+    background-color: rgba(177, 125, 29, 0.87);
+}
 
 .calculator-grid > button.del {
     background-color: rgba(192, 51, 51, 0.795);
+}
+.calculator-grid > button.del:hover {
+    background-color: rgba(138, 40, 40, 0.795);
 }
 
 .out-put{
